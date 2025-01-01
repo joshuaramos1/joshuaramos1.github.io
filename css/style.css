@@ -1,0 +1,25 @@
+.navbar-nav .nav-item .nav-link {
+  position: relative;
+  transition: all 1s;
+  border-radius: 50px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ffffff; /* Text color on hover */
+  padding: 0.8vw 3vw;
+  background-color: #007bff; /* Background color for the pill */
+  border-radius: 50px; /* Makes it pill-shaped */
+}
+
+.card-text {
+  color: #ffffff;
+}
+
+.card {
+  transition: all 1s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  color: #ffffff;
+}
