@@ -1,14 +1,31 @@
 .navbar-nav .nav-item .nav-link {
   position: relative;
-  transition: all 1s;
-  border-radius: 50px;
+  color: #ffffff;
+  transition: color 0.3s;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-  color: #ffffff; /* Text color on hover */
-  padding: 0.8vw 3vw;
-  background-color: #007bff; /* Background color for the pill */
-  border-radius: 50px; /* Makes it pill-shaped */
+  font-weight: bold;
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-brand:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+body {
+  background-color: #D9D9D9;
+}
+
+.navbar {
+  background-color: #4484CE;
 }
 
 .card-text {
