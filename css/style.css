@@ -2,6 +2,14 @@ body {
   background-color: rgb(255, 250, 232);
 }
 
+p {
+  line-height: 1.5;
+  padding: 2rem 18vw;;
+  font-size: 18px;
+  text-align: justify;
+  word-spacing: -0.5px; /* Reduce spacing between words */
+}
+
 .navbar {
   background-color: #4484CE; /* Background color for the navbar */
   padding: 2vw 0;
@@ -99,4 +107,9 @@ body {
   min-width: 100px; /* optional, set desired width */
   display: block;
   font-size: 16px;
+}
+
+.center {
+  display: block;
+  margin: 0px auto;
 }
