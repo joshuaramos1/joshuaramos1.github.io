@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 250, 232);
+  background-color: rgb(255, 250, 232) !important;
 }
 
 p {
